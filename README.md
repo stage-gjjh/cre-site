@@ -1,2 +1,8 @@
 # cre-site
-server 개발용
+server
+
+GJJH PROJECT 
+
+ADMIN - HOJUN - WEB - INSITE
+
+CREATE - 2016 - 11 - 12 AM 3:06 
