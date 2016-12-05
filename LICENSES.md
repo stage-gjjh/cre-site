@@ -1,5 +1,8 @@
 
-저작자표시-비영리-변경금지  CC BY-NC-ND
+저작자표시-비영리-변경금지  CC BY-NC-ND 
+
+- https://creativecommons.org/licenses/by-nc-nd/4.0/ 
+- https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
 
 크리에이티브 커먼즈
 
@@ -105,8 +108,4 @@ URI를하거나 합리적으로 실행 가능한 범위에 대한 라이센스�
 
 크리에이티브 커먼즈에 접촉 될 수있다 creativecommons.org .
 
-추가 언어로 사용할 수 : 한국어 , 네덜란드어 , 노르웨이어 , suomeksi , 테 REO 마오리어 , українська , 日本語 . 읽기 바랍니다 FAQ 공식 번역에 대한 자세한 정보를.
 
-위로 커먼즈 증서에«
-
-https://creativecommons.org/licenses/by-nc-nd/4.0/
