@@ -32,6 +32,4 @@ TEST - BACKUP - 2016 - 11 - 25 PM 10:39 - SUCCESS
                                           ...,...                                         
 HanGul internet CODE - 008 - SECTION 027 = A - YES.
 
-한국인터넷.한국 - > serv project  
-
-CC BY-NC-ND
+GJJH - > serv project  
