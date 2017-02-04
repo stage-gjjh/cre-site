@@ -30,4 +30,7 @@ TEST - BACKUP - 2016 - 11 - 25 PM 10:39 - SUCCESS
                                 ..,:,..,,,,,,,,,,,,,,.,::...                              
                                      ,.             ,,                                    
                                           ...,...                                         
-li = K-O-R-E CODE - 008 - SECTION 023 = A - DELETE? 
+HanGul internet CODE - 008 - SECTION 027 = A - YES.
+
+한국인터넷.한국 - > serv project  
+
