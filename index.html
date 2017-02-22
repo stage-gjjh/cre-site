@@ -5,12 +5,120 @@
 <meta charset="UTF-8">
 <title>cre - web-In Site</title>
 </head>
+<script>
 
-<body>
-Hellow World 
 
-간단한 GJJH 시뮬레이터 엔진을 개발할것임. 
-<img src="http://115.139.17.174/GJJH-SERVER/github_project/GJJH_Soruce.png"/>
+function onKeyDown()
+{
+     if(event.keyCode == 13)
+     {
+          //TODO : 실행시킬 코드
+          
+          var cala1 = document.getElementById("g1").value;
+          var cala2 = document.getElementById("j1").value;
+          var cala3 = document.getElementById("jj1").value;
+         
+          var calb1 = document.getElementById("g2").value;
+          var calb2 = document.getElementById("j2").value;
+          var calb3 = document.getElementById("jj2").value;
+         
+          cala2 = parseInt(60) - parseInt(cala2);
+          cala3 = parseInt(60) - parseInt(cala3);
+          
+          calb2 = parseInt(60) - parseInt(calb2);
+          calb3 = parseInt(60) - parseInt(calb3);
+          
+          var HcalA = cala1 - calb1;
+          var HcalB = cala2 - calb2;
+          var HcalC = cala3 - calb3;
+          
+           if(HcalC<0){
+        	  HcalB=HcalB-1;
+        	  HcalC=HcalC*(-1);
+        	  HcalC=60-HcalC;
+          }
+          
+          var Hhcal = HcalA+"시"+HcalB+"분"+HcalC+"초";
+          
+          document.getElementById("h3").value=Hhcal;
+          
+    }
+}
+</script>
+<style>
+select{
+	width:100px;
+}
+</style>
+<body onKeyDown="onKeyDown();">
+
+Hellow World
+<br>
+두 시간사이의 경과된 시간을 구합니다. 
+<br>
+<SELECT id="g1"></SELECT>시<SELECT id="j1"></SELECT>분<SELECT id="jj1"></SELECT>초<br>
+<SELECT id="g2"></SELECT>시<SELECT id="j2"></SELECT>분<SELECT id="jj2"></SELECT>초<br>
+시간을 적었으면 엔터를 누르세요
+<input id="h3" type="text">
 </body>
 
+<script>
+
+/* var x = document.createElement("SELECT");
+x.setAttribute("id", "g1");
+document.body.appendChild(x); */
+
+for(var i = 0; i<= 24; i++){
+var z = document.createElement("option");
+z.setAttribute("value", i);
+var t = document.createTextNode(i);
+z.appendChild(t);
+document.getElementById("g1").appendChild(z);
+}
+
+for(var i = 0; i<= 60; i++){
+	var z = document.createElement("option");
+	z.setAttribute("value", i);
+	var t = document.createTextNode(i);
+	z.appendChild(t);
+	document.getElementById("j1").appendChild(z);
+	}
+
+for(var i = 0; i<= 60; i++){
+	var z = document.createElement("option");
+	z.setAttribute("value", i);
+	var t = document.createTextNode(i);
+	z.appendChild(t);
+	document.getElementById("jj1").appendChild(z);
+	}
+
+/* var x = document.createElement("g2");
+x.setAttribute("id", "g2");
+document.body.appendChild(x); */
+
+for(var i = 0; i<= 24; i++){
+var z = document.createElement("option");
+z.setAttribute("value", i);
+var t = document.createTextNode(i);
+z.appendChild(t);
+document.getElementById("g2").appendChild(z);
+}
+
+for(var i = 0; i<= 60; i++){
+	var z = document.createElement("option");
+	z.setAttribute("value", i);
+	var t = document.createTextNode(i);
+	z.appendChild(t);
+	document.getElementById("j2").appendChild(z);
+	}
+
+for(var i = 0; i<= 60; i++){
+	var z = document.createElement("option");
+	z.setAttribute("value", i);
+	var t = document.createTextNode(i);
+	z.appendChild(t);
+	document.getElementById("jj2").appendChild(z);
+	}
+
+</script>
 </html>
