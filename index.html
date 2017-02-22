@@ -32,7 +32,13 @@ function onKeyDown()
           var HcalB = cala2 - calb2;
           var HcalC = cala3 - calb3;
           
-           if(HcalC<0){
+          if(HcalB<0){
+        	  HcalA=HcalA+1;
+        	  HcalB=HcalB*(-1);
+        	  HcalB=60-HcalB;
+          } 
+          
+          if(HcalC<0){
         	  HcalB=HcalB-1;
         	  HcalC=HcalC*(-1);
         	  HcalC=60-HcalC;
